@@ -1,0 +1,370 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans',sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-100{
+    width: 100%;
+     display: flex;
+    flex-direction: row;
+}
+
+.row-column-100{
+    width: 100%;
+     display: flex;
+    flex-direction: column;
+}
+
+.row-column{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-font{
+    font-family: 'playfair display' serif;
+}
+
+header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color:white;
+    padding: 60px;
+    background-image: url(./Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-heading{
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.banner-text{
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    padding: 30px;
+}
+
+.other-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+
+.other{
+   font-size: 1.6rem;
+   font-style: italic;
+   margin-bottom: 15px;
+}
+
+.other span{
+    font-size: 6rem;
+    line-height: 0;
+}
+
+.other-section p{
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.gallery .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .gallery-img-1{
+    background-image: url(./Images/gallery-1.jpeg);
+}
+.gallery .gallery-img-2{
+    background-image: url(./Images/gallery-2.jpeg);
+}
+.gallery .gallery-img-3{
+    background-image: url(./Images/gallery-3.jpeg);
+}
+.gallery .gallery-img-4{
+    background-image: url(./Images/gallery-4.jpeg);
+}
+.gallery .gallery-img-5{
+    background-image: url(./Images/gallery-5.jpeg);
+}
+.gallery .gallery-img-6{
+    background-image: url(./Images/gallery-6.jpeg);
+}
+
+.coming-soon{
+    background-color: #d9b1b3;
+    color:white;
+    padding: 50px 0;
+}
+
+.coming-soon .row-100{
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form{
+    text-align: center;
+}
+
+.coming-soon .coming-soon-heading{
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+
+.coming-soon .coming-soon-form{
+    margin-top: 35px;
+}
+
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.input-container .text-input,
+.input-container .form-button{
+    padding: 12px 10px;
+    border: unset;
+    border-radius: 20px;
+}
+
+.input-container .form-button{
+    background-color: black;
+    color: white;
+}
+
+.article{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.article-img{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article-img img{
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.article-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.article-text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+}
+
+
+.spring-collection{
+    width: 100%;
+    background-color: #d9b1b3;
+    color:white;
+    padding: 50px 0;
+}
+
+.spring-collection .spring-collection-heading{
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.spring-collection-img{
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+
+}
+
+.spring-collection .arrow-right{
+    width: 90px;
+    margin: 0 auto;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.spring-collection-img img{
+    width: 277.5px;
+    height: 375px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 90px;
+}
+
+.product-1{
+    width: 304px;
+    height: 360px;
+}
+
+.product-2{
+    width: 299px;
+    height: 360px;
+}
+
+.product-text{
+    margin: 30px;
+}
+
+.product-text h2{
+    margin-bottom: 20px;
+}
+
+.product-text b{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+.product-text p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.product-text button{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.subscribe{
+    display: flex;
+}
+
+.subscribe-img{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.subscribe-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+hr{
+    background-color: #d9b1b3;
+    height: 10px;
+    border: none;
+}
+
+.subscribe-heading{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: none;
+    margin-bottom: 50px;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-row .input-box{
+    width: 49%;
+}
+
+.form-row .input-box input[type="text"],
+.form-row .input-box input[type="email"]{
+    width: 100%;
+    height: 50px;
+    padding: 10px 12px;
+}
+
+.subscribe-button{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-button button{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.subscribe-form p{
+    font-size: 0.875rem;
+    width: 343px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.social-icons .twitter{
+    padding: 0 10px;
+}
+
