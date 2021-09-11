@@ -267,7 +267,7 @@ header{
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: bolder;
-    
+
 }
 
 .product-text p{
@@ -291,6 +291,7 @@ header{
 }
 
 .subscribe-img{
+   display: flex;
     width: 50%;
     margin-top: 70px;
 }
@@ -367,4 +368,3 @@ hr{
 .social-icons .twitter{
     padding: 0 10px;
 }
-
